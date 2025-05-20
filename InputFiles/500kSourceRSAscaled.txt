@@ -1,0 +1,25 @@
+EC -pkeyopt ec_paramgen_curve:secp160r1,500000
+EC -pkeyopt ec_paramgen_curve:secp224r1,500000
+NULL,500000
+NULLNoLoop,500000
+EC -pkeyopt ec_paramgen_curve:P-256,500000
+EC -pkeyopt ec_paramgen_curve:P-384,500000
+NULL,500000
+EC -pkeyopt ec_paramgen_curve:P-521,500000
+ML-DSA-44,500000
+NULL,500000
+ML-DSA-65,500000
+ML-DSA-87,500000
+NULL,500000
+ML-KEM-512,500000
+ML-KEM-768,500000
+NULL,500000
+ML-KEM-1024,500000
+RSA -pkeyopt rsa_keygen_bits:1024,50000
+NULL,500000
+RSA -pkeyopt rsa_keygen_bits:1536,10000
+RSA -pkeyopt rsa_keygen_bits:2048,10000
+NULL,100000
+RSA -pkeyopt rsa_keygen_bits:3072,2500
+RSA -pkeyopt rsa_keygen_bits:4096,1000
+
